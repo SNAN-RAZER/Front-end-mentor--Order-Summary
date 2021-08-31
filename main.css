@@ -104,13 +104,5 @@ span{
     .content{
         width:80vw;
     }
-    .pricing{
-        justify-content: space-between;
-    }
-    .pricing-image{
-        margin-left: 20px;
-    }
-    .pricing-link{
-        margin-right: 20px;
-    }
+    
 }
