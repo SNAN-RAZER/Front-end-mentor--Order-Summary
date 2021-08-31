@@ -54,11 +54,16 @@ body{
     width: 100%;
     display: flex;
     background: rgb(247,249,254);
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
 }
-
+.pricing-image{
+    margin-left: 20px;
+}
+.pricing-link{
+    margin-right: 20px;
+}
 span{
     display: block;
     color: grey;
@@ -99,5 +104,13 @@ span{
     .content{
         width:80vw;
     }
-    
+    .pricing{
+        justify-content: space-between;
+    }
+    .pricing-image{
+        margin-left: 20px;
+    }
+    .pricing-link{
+        margin-right: 20px;
+    }
 }
